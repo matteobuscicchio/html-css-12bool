@@ -1,0 +1,45 @@
+/* UTILITY DI BASE */
+.container{
+  max-width: 1170px;
+  margin: 0;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* \UTILITY DI BASE\ */
+
+
+
+/* DEBUG */
+.container{
+  height: 200px;
+  background-color: red;
+}
+/* \DEBUG\ */
+
+
+
+/* UTILITY DI CLASSE */
+[class*="col-"]{
+  float: left;
+}
+/* \UTILITY DI CLASSE\ */
+
+
+
+/* COLONNE */
+.col-1{
+  width: calc((100% / 12)* 1);
+}
+/* \COLONNE\ */
+
+
+
+/* OFFSET */
+.col-offset-1{
+  width: calc((100% / 12)* 1);
+}
+/* \OFFSET\ */
