@@ -3,3 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container{}
+
+.red{
+  background-color: red;
+}
+
+.pink{
+  background-color: pink;
+}
+
+.txt-al{
+  text-align: center;
+}
