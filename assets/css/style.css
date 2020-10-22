@@ -4,7 +4,33 @@
   box-sizing: border-box;
 }
 
-.container{}
+p{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#row-1{
+  margin-top: 20px;
+}
+#row-5{
+  margin-bottom: 20px;
+}
+
+.container-col{
+  width: 80%;
+}
+
+.container-col > div{
+  height: 150px;
+  border: 1px solid black;
+}
+
+.p-1px{
+  height: 100%;
+  /* margin: 1px; */
+  border: 1px solid white;
+}
 
 .red{
   background-color: red;
